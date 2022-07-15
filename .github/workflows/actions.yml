@@ -27,7 +27,7 @@ jobs :
          echo $GITHUB_SHA
          echo $GITHUB_REPOSITORY
          echo $GITHUB_WORKSPACE
-         echo "${{github_token}}"
+         echo "${{ github_token }}"
          
      
 
