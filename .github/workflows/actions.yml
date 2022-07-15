@@ -25,5 +25,15 @@ jobs :
          pwd
          ls
      
+     - name : Echo Github Tokens
+       run  : |
+         echo $GITHUB_SHA
+         echo $GITHUB_REPOSITORY
+         echo $GITHUB_WORKSPACE
+         echo "${{github_token}}"
+         
+     
+
+     
 
 
