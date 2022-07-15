@@ -14,9 +14,11 @@ jobs :
 
      - name : Log Greeting time
        run : echo "{{steps.greet.outputs.time}}"
-          
+     - name : List files 
+       run  : |
+         pwd
+         ls
      
      
 
 
-     
